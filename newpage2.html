@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+.main {
+    width: 151px;
+    height: 51px;
+    background-color: #ece9d8;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+	}
+</style>
+
+
+
+<script>
+function openapp() {}
+function vertsplit() {document.documentElement.innerHTML="<frameset cols='*,*'><frame src='newpage.html'><frame src='newpage.html'></frameset>"}
+function horisplit() {document.documentElement.innerHTML="<frameset rows='*,*'><frame src='newpage.html'><frame src='newpage.html'></frameset>"}
+</script>
+
+<body style="background-color: #ece9d8">
+<div class="main">
+<img src="newapp.png" onclick=window.location.href="appselect.html"><img src="vertsplit.png" onclick=vertsplit()><img src="horisplit.png" onclick=horisplit()>
+</div>
+
+</body>
+
+</html>
